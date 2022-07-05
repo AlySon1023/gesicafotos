@@ -42,8 +42,6 @@ $(function(){
         }else if(pasow(telefone) == false){
             cor($('input[name=telefone]'));
             return false;
-        }else{
-            alert('Formulario Enviado');
         }
     })
 
